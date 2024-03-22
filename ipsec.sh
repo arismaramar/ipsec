@@ -322,8 +322,6 @@ wget -O /usr/bin/addpptp https://${bzvpn}/addpptp.sh && chmod +x /usr/bin/addppt
 wget -O /usr/bin/delpptp https://${bzvpn}/delpptp.sh && chmod +x /usr/bin/delpptp
 wget -O /usr/bin/renewpptp https://${bzvpn}/renewpptp.sh && chmod +x /usr/bin/renewpptp
 wget -O /usr/bin/renewl2tp https://${bzvpn}/renewl2tp.sh && chmod +x /usr/bin/renewl2tp
-mkdir -p /var/lib/bzstorevpn/data-user-l2tp
-mkdir -p /var/lib/bzstorevpn/data-user-pptp
 touch /var/lib/bzstorevpn/data-user-l2tp
 touch /var/lib/bzstorevpn/data-user-pptp
 rm -f /root/ipsec.sh
