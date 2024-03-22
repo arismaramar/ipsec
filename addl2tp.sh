@@ -42,7 +42,7 @@ PUBLIC_IP=$(wget -qO- ipinfo.io/ip);
 else
 PUBLIC_IP=$IP
 fi
-source /etc/xray/domain
+#source /etc/xray/domain
 #source /var/lib/kyt/ipvps.conf
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/xray/domain)
